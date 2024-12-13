@@ -33,7 +33,7 @@ for line in lines:
         data.append([col.strip() for col in match.groups()])
 
 # Caminho para salvar o arquivo CSV
-output_path = '/Data/dados_extraidos.csv'
+output_path = 'Data/dados_extraidos.csv'
 
 # Salvar os dados no formato CSV
 with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
